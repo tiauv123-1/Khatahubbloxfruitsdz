@@ -33,8 +33,6 @@ MinimizeButton({
 local Tab1o = MakeTab({Name = "main"})
 local Tab2o = MakeTab({Name = "nhìn"})
 
-
-
 Toggle = AddToggle(Tab1o, {
       Name = "auto farm",
       Default = false,
