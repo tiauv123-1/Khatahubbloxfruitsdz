@@ -1,5 +1,14 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/main/UiREDzV2.lua"))()
 
+-- Khai báo các biến cần thiết để tránh lỗi nil
+local Sea1, Sea2, Sea3 = true, false, false -- Sửa theo khu vực bạn muốn test
+local SelectMonster = nil
+local SelectBoss = nil
+local Ms, NameQuest, QuestLv, NameMon, CFrameQ, CFrameMon = "", "", 1, "", nil, nil
+local NameBoss, NameQuestBoss, QuestLvBoss, RewardBoss, CFrameQBoss, CFrameBoss, BossMon = "", "", 1, "", nil, nil, ""
+_G.AutoLevel = false
+
+
 local Window = MakeWindow({
     Hub = {
         Title = "khata hub",
